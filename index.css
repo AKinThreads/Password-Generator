@@ -1,0 +1,108 @@
+body {
+    margin: 100px 60px;
+    background-color: #1F2937;
+}
+.headText{
+    display: flex;
+    flex-direction: column;
+    
+}
+.passwords{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+#firstHead{
+    color: white;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900px;
+    font-style: normal;
+    font-size: 50;
+    margin-bottom: -10px;
+}
+#secondHead{
+    color:#4adf86;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900px;
+    font-style: normal;
+    font-size: 50;
+    margin: 0px;
+    margin-bottom: -10px;
+}
+#slogan{
+    color: #9ca3af;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900px;
+    font-style: normal;
+
+}
+#copyText{
+    color: #9ca3af;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900px;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+#genButton{
+    background-color: #10b981;
+    border-radius: 3px;
+    padding:7px 8px;
+    color: white;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900px;
+    font-style: normal;
+}
+#genButton:hover{
+    color: #10b981;
+    border-radius: 3px;
+    padding:7px 8px;
+    background-color: white;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900px;
+    font-style: normal;
+    transition: 0.7s;
+}
+#pass1:focus{
+    animation: glow 2s forwards;
+}
+#pass2:focus{
+    animation: glow 2s forwards;
+}
+@keyframes glow{
+    0%{
+        width: 200px;
+        height: 30px;
+        background-color: #55f991;
+        border-radius: 8px;
+        color: #55f991;
+        box-shadow: 0px 0px 10px #55f991;
+    }
+    100%{
+        width: 200px;
+        height: 30px;
+        background-color: #273549;
+        border-radius: 8px;
+        color: #55f991;
+    }
+}
+#pass1{
+    width: 200px;
+    height: 30px;
+    background-color: #273549;
+    border-radius: 8px;
+    color: #55f991;
+}
+#pass2{
+    width: 200px;
+    height: 30px;
+    background-color: #273549;
+    border-radius: 8px;
+    color: #55f991;
+}

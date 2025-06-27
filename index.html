@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <script src="index.js" async></script>
+    </head>
+    <body>
+        <div class="headText">
+            <h1 id="firstHead">Generate a</h1>
+            <h1 id="secondHead">random password</h1>
+            <p id="slogan"><b>Never use an insecure password again.</b></p>
+        </div>
+        <button id="genButton" onclick="passwordGenerator()">Generate passwords</button>\
+        <p id="copyText"><b>Click passwords to copy them.</b></p>
+        <hr>
+        <div class="passwords">
+            <button id="pass1" onclick="copyOne()"></button>
+            <button id="pass2" onclick="copyTwo()"></button>
+        </div>
+    </body>
+</html>
