@@ -41,7 +41,3 @@ Handles functionality:
 2. Click **Generate passwords**.
 3. Two strong passwords will be displayed.
 4. Click on either password to copy it to your clipboard.
-
-## 📜 License
-
-MIT License — free to use, modify, and distribute.
