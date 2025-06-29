@@ -1,19 +1,47 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# 🔐 Random Password Generator
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A sleek and secure browser-based password generator that creates two strong passwords with a single click. Built using HTML, CSS, and JavaScript — with a modern UI and copy-to-clipboard support.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## 🚀 Features
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+- ✅ Generates two random 15-character passwords
+- ✅ Includes uppercase, lowercase, numbers, and special symbols
+- ✅ One-click copy functionality for each password
+- ✅ Interactive glow animation on selection
 
-Happy Coding!
+## 📂 File Structure
+
+### `index.html`
+
+Defines the app structure:
+- Headings and slogan
+- Generate button
+- Password display buttons
+- Copy instructions
+
+### `index.css`
+
+Handles all styling:
+- Dark theme background with accent green
+- Font styling using Google Fonts
+- Smooth hover and focus animations
+- Responsive layout using Flexbox
+
+### `index.js`
+
+Handles functionality:
+- Randomly selects characters from a full set of alphabets, numbers, and symbols
+- Generates two independent passwords on button click
+- Implements copy-to-clipboard for each password
+- Adds focus animations on password buttons
+
+## 🧪 How to Use
+
+1. Open `index.html` in your browser.
+2. Click **Generate passwords**.
+3. Two strong passwords will be displayed.
+4. Click on either password to copy it to your clipboard.
+
+## 📜 License
+
+MIT License — free to use, modify, and distribute.
